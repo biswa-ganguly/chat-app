@@ -50,7 +50,7 @@ const SignUp = () => {
 						</label>
 						<input
 							type='text'
-							placeholder='username'
+							placeholder='user_name'
 							className='w-full input input-bordered h-10'
 							value={inputs.username}
 							onChange={(e) => setInputs({ ...inputs, username: e.target.value })}
